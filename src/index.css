@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Jost";
+    box-sizing: border-box;
+}
+
+.BlogListHeading{
+    font-family: "Playfair Display";
+}
+.SingleBlogHeading{
+    font-weight: 400;
+}
+.Blog-Body{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.SingleBlog p ,ol ,li {
+    margin: 20px 0px;
+    font-size: 15px;
+}
+.SingleBlog ol{
+    list-style: decimal;
+}
+.SingleBlog ol li{
+    margin: 0px 40px;
+}
