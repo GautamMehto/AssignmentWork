@@ -7,7 +7,7 @@ const SingleBlogPost = ({path}) => {
   useEffect(() => {
     fetch(`http://api.idevlive.com/ihost/blog_getSinglePost/${path}`, {
       headers: {
-        'HTTP_X_API_KEY': 'id_pk_057199809bd29d592306c206efcf3d3d'
+        Key : "Value"
       }
     })
     .then(response => response.json())
