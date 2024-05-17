@@ -8,7 +8,7 @@ const BlogListing = () => {
     const fetchPosts = async () => {
       const res = await axios.get('http://api.idevlive.com/ihost/blog_getPosts', {
         headers: {
-          'HTTP_X_API_KEY': 'id_pk_057199809bd29d592306c206efcf3d3d',
+          Key : "Value"
         },
       });
       setPosts(res.data.responseMsg);
